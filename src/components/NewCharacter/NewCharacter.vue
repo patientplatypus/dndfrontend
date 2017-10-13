@@ -1,5 +1,10 @@
 <template>
   <div class="NewCharacter">
+    <div>
+      <h1>
+        New Character
+      </h1>
+    </div>
   </div>
 </template>
 

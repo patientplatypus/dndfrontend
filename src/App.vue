@@ -3,11 +3,11 @@
     <div v-bind:style="{ backgroundColor: 'purple' }" class='leftbox'/>
     <div v-bind:style="{ backgroundColor: 'orange' }" class='topbox'>
       <router-link class='routerlink' to="/">Home</router-link>
-      <router-link class='routerlink' to="/home">Home</router-link>
       <router-link class='routerlink' to="/loginorsignup">Login/Signup</router-link>
       <router-link class='routerlink' to="/newcharacter">New</router-link>
       <router-link class='routerlink' to="/savedcharacters">Saved</router-link>
     </div>
+    <router-view v-bind:style="{ backgroundColor: 'skyblue' }" class='contentbox'></router-view>
   </div>
 </template>
 

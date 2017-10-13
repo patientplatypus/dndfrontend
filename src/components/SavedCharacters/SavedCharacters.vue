@@ -1,5 +1,10 @@
 <template>
   <div class="SavedCharacters">
+    <div>
+      <h1>
+        Saved Character
+      </h1>
+    </div>
   </div>
 </template>
 

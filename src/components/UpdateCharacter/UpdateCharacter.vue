@@ -1,5 +1,10 @@
 <template>
   <div class="UpdateCharacter">
+    <div>
+      <h1>
+        Update Character
+      </h1>
+    </div>
   </div>
 </template>
 
